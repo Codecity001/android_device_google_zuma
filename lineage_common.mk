@@ -45,5 +45,9 @@ PRODUCT_PACKAGES += \
 # Pixel device
 TARGET_IS_PIXEL := true
 
+# PixelDisplayService
+PRODUCT_PACKAGES += \
+    com.android.pixeldisplayservice.auto_generated_rro_product_adevtool__
+
 # Touch
 include hardware/google/pixel/touch/device.mk
