@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Whether device has Google Tensor SoC -->
+    <bool name="config_hasTensorSoC">true</bool>
+
+</resources>
