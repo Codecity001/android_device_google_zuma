@@ -31,9 +31,15 @@ include hardware/google/pixel/lineage_health/device.mk
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/zuma/linker.config.json
 
+# Memory allocator
+PRODUCT_USE_SCUDO := true
+
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts
+
+# Pixel device
+TARGET_IS_PIXEL := true
 
 # Touch
 include hardware/google/pixel/touch/device.mk
